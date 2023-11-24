@@ -1,30 +1,5 @@
 # openjourney-inference
 
-<style>
-  .custom-table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 2em;
-  }
-  .custom-table td {
-    width: 50%;
-    vertical-align: top;
-    padding: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.15);
-  }
-  .custom-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: transform .2s; 
-    margin-bottom: 1em;
-  }
-  .custom-image:hover {
-    transform: scale(1.05);
-  }
-</style>
 <table class="custom-table">
   <tr>
     <td>
