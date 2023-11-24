@@ -24,3 +24,4 @@ This is a Python script to generate images using the diffusers library with Open
   </tr>
 </table>
 
+## Usage Steps
