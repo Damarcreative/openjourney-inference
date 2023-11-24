@@ -1,5 +1,8 @@
 # openjourney-inference
 
+## Description
+This is a Python script to generate images using the diffusers library with OpenJourney models with various types of schedulers. This script uses Gradio to create a simple user interface for setting parameters and viewing the resulting images.
+
 <table class="custom-table">
   <tr>
     <td>
@@ -20,3 +23,4 @@
     </td>
   </tr>
 </table>
+
