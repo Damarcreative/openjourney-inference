@@ -1,4 +1,7 @@
 # openjourney-inference
+<a target="_blank" href="https://colab.research.google.com/github/Damarcreative/openjourney-inference/blob/main/inference.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## Description
 This is a Python script to generate images using the diffusers library with OpenJourney models with various types of schedulers. This script uses Gradio to create a simple user interface for setting parameters and viewing the resulting images.
