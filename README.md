@@ -25,3 +25,63 @@ This is a Python script to generate images using the diffusers library with Open
 </table>
 
 ## Usage Steps
+1. Install dependencies by running the following command:
+```
+pip install -q diffusers transformers omegaconf accelerate gradio
+```
+2. Run the script and enter the prompt and other parameters via the user interface that appears.
+
+3. Select the scheduler type from the dropdown provided.
+
+4. Determine the location to save the resulting image by setting folder_path in the markdown section.
+
+5. Press the generate button to generate an image.
+
+### Parameter
+`scheduler_type`: Scheduler type for the diffusion model.
+
+`prompt`: Prompt to generate image.
+
+`negative_prompt`: Negative prompt to form an image concept.
+
+`width`: The width of the resulting image.
+
+`height`: The height of the resulting image.
+
+`guidance_scale`: Guidance scale to control the degree to which guidance influences results.
+
+`num_inference_steps`: Number of inference steps used.
+
+### Usage Example
+#### Import Libraries
+```
+import gradio as gr
+from diffusers import (
+    StableDiffusionPipeline,
+    DDPMScheduler,
+    DDIMScheduler,
+    PNDMScheduler,
+    LMSDiscreteScheduler,
+    EulerDiscreteScheduler,
+    EulerAncestralDiscreteScheduler,
+    DPMSolverMultistepScheduler
+)
+import torch
+import os
+import re
+from PIL import Image
+```
+
+#### Load Model
+```
+repo_id = "prompthero/openjourney-v4"
+pipe = StableDiffusionPipeline.from_pretrained(repo_id, torch_dtype=torch.float16)
+pipe.to("cuda")
+```
+
+
+
+
+
+
+
