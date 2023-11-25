@@ -159,7 +159,7 @@ iface = gr.Interface(
 iface.launch()
 ```
 
-
+![Preview](image/preview.png)
 
 
 
