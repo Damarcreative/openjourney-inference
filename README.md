@@ -6,6 +6,9 @@
 ## Description
 This is a Python script to generate images using the diffusers library with OpenJourney models with various types of schedulers. This script uses Gradio to create a simple user interface for setting parameters and viewing the resulting images.
 
+![Banner](./GIT%20-%20Banner.jpg)
+
+## Gallery
 <table class="custom-table">
   <tr>
     <td>
